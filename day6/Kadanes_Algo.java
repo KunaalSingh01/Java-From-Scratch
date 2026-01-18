@@ -1,6 +1,5 @@
 // Using Kandane's Algorithm to check the maximum sum of the sub array
 //Time Complexity=O(n)
-//It states that if sum of two numbers = -ve number ; then sum = 0; 
 // does not work for arrays with all -ve values
 
 public class Kadanes_Algo {
