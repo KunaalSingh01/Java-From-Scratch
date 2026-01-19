@@ -1,4 +1,6 @@
 import java.util.*;
+// time complexity O(n^2)
+// works by swapping the with next value if 1st > next.
 public class bubbleSort {
     public static void bubbleSort(int array[]){
         for(int i=0; i<array.length-1;i++){
