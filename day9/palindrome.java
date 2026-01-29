@@ -9,7 +9,7 @@ public class palindrome {
         return true;
     }
     public static void main(String[] args) {
-        String pali="noon";
+        String pali="121";
         System.out.println(palinDrome(pali));
     }
 }
