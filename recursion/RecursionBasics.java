@@ -35,7 +35,6 @@ public class RecursionBasics{
         int fn= num * fnm1;
         return fn;
     }
-
     // print sum of n natural numbers
     public static int add(int numb){
         if (numb==1){
@@ -44,7 +43,16 @@ public class RecursionBasics{
         int summ1=add(numb-1);
         int add = numb + summ1;
         return add;
+    }
 
+    public static int fibbo(int num){
+        if (num==0 || num==1){
+            return num;
+        }
+        int fib1=fibbo(num-1);
+        int fib2=fibbo(num-2);
+        int fibSum= fib1+fib2;
+        return fibSum;
     }
     public static void main(String arg[]){
         Scanner sc = new Scanner(System.in);
@@ -54,5 +62,6 @@ public class RecursionBasics{
         // System.out.println(factorial(4));
         System.out.println(fact(4));
         System.out.println(add(4));
+        System.out.println(fibbo(6));
     }
 }
