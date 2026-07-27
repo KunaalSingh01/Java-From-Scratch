@@ -63,5 +63,10 @@ public class RecursionBasics{
         System.out.println(fact(4));
         System.out.println(add(4));
         System.out.println(fibbo(6));
+        
+        int fib=6;
+        for(int i=0; i<=fib; i++){
+            System.out.print(fibbo(i)+" ");
+        }
     }
 }
